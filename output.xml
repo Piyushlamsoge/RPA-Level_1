@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.8 on win32)" generated="20230424 17:00:30.457" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="E:\Robot_practise\tasks.robot">
+<test id="s1-t1" name="Insert the sales data for the week and export it as a PDF" line="6">
+<kw name="Open the intranet website">
+<kw name="Open Available Browser">
+<arg>https://robotsparebinindustries.com/</arg>
+<msg timestamp="20230424 17:00:30.610" level="FAIL">No keyword with name 'Open Available Browser' found.</msg>
+<status status="FAIL" starttime="20230424 17:00:30.610" endtime="20230424 17:00:30.610"/>
+</kw>
+<status status="FAIL" starttime="20230424 17:00:30.610" endtime="20230424 17:00:30.619"/>
+</kw>
+<status status="FAIL" starttime="20230424 17:00:30.610" endtime="20230424 17:00:30.619">No keyword with name 'Open Available Browser' found.</status>
+</test>
+<doc>Insert the sales data for the week and export it as a PDF.</doc>
+<status status="FAIL" starttime="20230424 17:00:30.473" endtime="20230424 17:00:30.621"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230424 17:00:30.598" level="ERROR">Error in file 'E:\Robot_practise\tasks.robot' on line 3: Importing library 'RPA.Browser.Selenium' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\LENOVO\anaconda3\Scripts\robot.exe
+  C:\Users\LENOVO\anaconda3\python38.zip
+  C:\Users\LENOVO\anaconda3\DLLs
+  C:\Users\LENOVO\anaconda3\lib
+  C:\Users\LENOVO\anaconda3
+  C:\Users\LENOVO\AppData\Roaming\Python\Python38\site-packages
+  C:\Users\LENOVO\anaconda3\lib\site-packages
+  C:\Users\LENOVO\anaconda3\lib\site-packages\locket-0.2.1-py3.8.egg
+  C:\Users\LENOVO\anaconda3\lib\site-packages\win32
+  C:\Users\LENOVO\anaconda3\lib\site-packages\win32\lib
+  C:\Users\LENOVO\anaconda3\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>

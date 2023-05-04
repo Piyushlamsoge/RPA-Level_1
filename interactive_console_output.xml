@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230424 17:20:42.165" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\LENOVO\.vscode\extensions\robocorp.robotframework-lsp-1.10.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Input Password" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20230424 17:22:44.083" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230424 17:22:44.083" endtime="20230424 17:22:44.091"/>
+</kw>
+<kw name="Download" library="RPA.HTTP">
+<arg>https://robotsparebinindustries.com/SalesData.xlsx</arg>
+<doc>An alias for the ``HTTP Get`` keyword.</doc>
+<status status="PASS" starttime="20230424 17:41:17.291" endtime="20230424 17:41:18.540"/>
+</kw>
+<status status="PASS" starttime="20230424 17:20:42.221" endtime="20230424 17:44:39.304"/>
+</kw>
+<status status="PASS" starttime="20230424 17:20:42.221" endtime="20230424 17:44:39.305"/>
+</test>
+<status status="PASS" starttime="20230424 17:20:42.165" endtime="20230424 17:44:39.308"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
